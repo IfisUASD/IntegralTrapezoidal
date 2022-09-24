@@ -2,8 +2,8 @@ import numpy as np
 
 
 
-def readFile():
-    file = open("Data.dat")
+def readFile(fileName):
+    file = open("{}".format(fileName))
     x = []
     E = []
     pdos = []

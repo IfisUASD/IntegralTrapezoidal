@@ -6,9 +6,9 @@ $$\int_a^b f(x) dx \approx \sum_{k=1}^N \frac{f(x_{k-1}) + f(x_k)}{2}\Delta x_k$
 And using this method we can import a data set of the form:
 | x | f(x) |
 |---|------|
-| $$x_1$$ | $f(x_1)$$|
-| $$x_2$$ | $f(x_2)$$|
-| $$x_3$$ | $f(x_3)$$|
+| $$x_1$$ | $f(x_1)$|
+| $$x_2$$ | $f(x_2)$|
+| $$x_3$$ | $f(x_3)$|
 | ... | ...|
 | $$x_n$$ | $$f(x_n)$$|
 

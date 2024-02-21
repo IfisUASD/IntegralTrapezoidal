@@ -2,6 +2,7 @@ import numpy as np
 
 
 
+
 def readFile(fileName):
     file = open("{}".format(fileName))
     x = []
@@ -17,7 +18,6 @@ def readFile(fileName):
     i = 0
     j = 0
     #print(x[0])
-
     while i < len(x):
         while j < 2:
             if j == 0:
@@ -27,13 +27,15 @@ def readFile(fileName):
             j = j + 1
         j = 0
         i = i + 1
-
+    
     E = np.array(E)
-    E = E.astype(np.float)
+    E = E.astype(float)
 
     pdos = np.array(pdos)
-    pdos = pdos.astype(np.float)
+    pdos = pdos.astype(float)
+
+   
+    
     return E, pdos
-    #print("E (eV) es:", E)
-    #print("pdos(E) es:", pdos)
-    #print(type(E[0]))
+
+

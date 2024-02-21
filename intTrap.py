@@ -1,4 +1,4 @@
-from readFile import readFile
+
 
 def intTrap(x, f):
     i = 0
